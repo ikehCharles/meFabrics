@@ -1,0 +1,27 @@
+.addProductForm {
+  border: 1px solid rgba(0, 0, 0, 0.323);
+  text-align: center;
+  padding: 20px;
+}
+.addProductForm .input {
+  margin: 5px 0;
+}
+
+.imgWrapper {
+  width: 100%;
+  height: 300px;
+}
+ .imgWrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+@media(min-width: 760px){
+  .addProductForm {
+    width: 40%;
+  }
+  .imgWrapper {
+    /* height: 200px; */
+  }
+  
+}
